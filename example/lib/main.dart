@@ -92,9 +92,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   setState(() {
                     _validationMessageForEmail =
-                    _emailController.text.isValidEmail()
-                        ? "Valid email-id"
-                        : "Invalid email-id";
+                        _emailController.text.isValidEmail()
+                            ? "Valid email-id"
+                            : "Invalid email-id";
                   });
                 },
                 child: const Text("Validate Email-id"),
@@ -119,9 +119,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   setState(() {
                     _validationMessageForNumber =
-                    _mobileController.text.isValidMobileNumber()
-                        ? "Valid mobile number"
-                        : "Invalid mobile number";
+                        _mobileController.text.isValidMobileNumber()
+                            ? "Valid mobile number"
+                            : "Invalid mobile number";
                   });
                 },
                 child: const Text("Validate Mobile Number"),
