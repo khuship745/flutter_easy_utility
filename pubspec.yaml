@@ -1,0 +1,19 @@
+name: flutter_easy_utility
+description: Enhance your Flutter app development with a versatile utility package. Simplify common tasks, streamline code, and improve productivity. Includes extensions and utilities.
+version: 0.0.1
+homepage: https://github.com/khuship745/flutter_easy_utility.git
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
