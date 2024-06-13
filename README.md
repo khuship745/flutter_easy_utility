@@ -19,6 +19,7 @@ Logging Utilities: Log messages and exceptions for debugging purposes.
 
 HexColor: Convert colors between hexadecimal strings and Color objects.
 
+<img src = "https://github.com/khuship745/flutter_easy_utility/blob/master/assets/sccreenshot.png">
 
 ## Usage
 
