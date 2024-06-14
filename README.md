@@ -19,7 +19,7 @@ Logging Utilities: Log messages and exceptions for debugging purposes.
 
 HexColor: Convert colors between hexadecimal strings and Color objects.
 
-<img src = "https://github.com/khuship745/flutter_easy_utility/blob/master/assets/sccreenshot.png">
+![Flutter Easy Utility](https://github.com/khuship745/flutter_easy_utility/blob/master/assets/flutter_easy_utility_ss.png)
 
 ## Installing
 To use this package, add `flutter_easy_utility` as a dependency in your `pubspec.yaml` file.
