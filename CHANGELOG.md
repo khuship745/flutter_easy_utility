@@ -9,3 +9,7 @@ minor changes
 ## 0.0.3
 
 minor changes in dynamic extension
+
+## 0.0.4
+
+minor changes in README file
