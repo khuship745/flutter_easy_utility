@@ -1,4 +1,4 @@
-# flutter_utils
+# flutter_easy_utility
 
 This project is a starting point for a Flutter plug-in package.It provides a set of methods/extensions for Flutter that make using the framework much easier and cleaner, adds additional functionality, and provides tools and parts needed to build your project faster.
 
@@ -33,9 +33,9 @@ To use this package, add `flutter_easy_utility` as a dependency in your `pubspec
 ```dart
 String strValue = "   Abc   ";
 
-Text("Converted String to String: ${strValue.convertToString()}"),
-Text("Converted String to Int: ${strValue.convertToInt()}"),
-Text("Converted String to Double: ${strValue.convertToDouble()}"),
+Text("Converted String to String: ${convertToString(strValue)}"),
+Text("Converted String to Int: ${convertToInt(strValue)}"),
+Text("Converted String to Double: ${convertToDouble(strValue)}"),
 ```
 
 ### 2. convertToInt
@@ -45,9 +45,9 @@ Text("Converted String to Double: ${strValue.convertToDouble()}"),
 ```dart
 int iValue = 56;
 
-Text("Converted Int to Int: ${iValue.convertToInt()}"),
-Text("Converted Int to String: ${iValue.convertToString()}"),
-Text("Converted Int to Double: ${iValue.convertToDouble()}"),
+Text("Converted Int to Int: ${convertToInt(iValue)}"),
+Text("Converted Int to String: ${convertToString(iValue)}"),
+Text("Converted Int to Double: ${convertToDouble(iValue)}"),
 ```
 
 ### 3. convertToDouble
@@ -57,9 +57,9 @@ Text("Converted Int to Double: ${iValue.convertToDouble()}"),
 ```dart
 double dValue = 9925.56;
 
-Text("Converted Double to Double: ${dValue.convertToDouble()}"),
-Text("Converted Double to String: ${dValue.convertToString()}"),
-Text("Converted Double to Int: ${dValue.convertToInt()}"),
+Text("Converted Double to Double: ${convertToDouble(dValue)}"),
+Text("Converted Double to String: ${convertToString(dValue)}"),
+Text("Converted Double to Int: ${convertToInt(dValue)}"),
 ```
 
 ### 4. isValidMobileNumber
