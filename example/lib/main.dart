@@ -53,19 +53,19 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               10.heightGap,
               //String value
-              Text("Converted String to String: ${strValue.convertToString()}"),
-              Text("Converted String to Int: ${strValue.convertToInt()}"),
-              Text("Converted String to Double: ${strValue.convertToDouble()}"),
+              Text("Converted String to String: ${convertToString(strValue)}"),
+              Text("Converted String to Int: ${convertToInt(strValue)}"),
+              Text("Converted String to Double: ${convertToDouble(strValue)}"),
               20.heightGap,
               //Int value
-              Text("Converted Int to Int: ${iValue.convertToInt()}"),
-              Text("Converted Int to String: ${iValue.convertToString()}"),
-              Text("Converted Int to Double: ${iValue.convertToDouble()}"),
+              Text("Converted Int to Int: ${convertToInt(iValue)}"),
+              Text("Converted Int to String: ${convertToString(iValue)}"),
+              Text("Converted Int to Double: ${convertToDouble(iValue)}"),
               20.heightGap,
               //Double value
-              Text("Converted Double to Double: ${dValue.convertToDouble()}"),
-              Text("Converted Double to String: ${dValue.convertToString()}"),
-              Text("Converted Double to Int: ${dValue.convertToInt()}"),
+              Text("Converted Double to Double: ${convertToDouble(dValue)}"),
+              Text("Converted Double to String: ${convertToString(dValue)}"),
+              Text("Converted Double to Int: ${convertToInt(dValue)}"),
               20.heightGap,
               Text(
                   "Check the message emptyOrNull: ${strValue.isEmptyOrNull()}"),
